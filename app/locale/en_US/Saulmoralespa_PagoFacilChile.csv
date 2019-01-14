@@ -1,0 +1,11 @@
+"Environment", "Environment",
+"Production", "Production",
+"Create it inside the <a href="https://dashboard.pagofacil.cl/index.php?r=api-tokens%2Findex" target="_blank">panel</a> in the "Api Tokens" menu", "Create it inside the <a href="https://dashboard.pagofacil.cl/index.php?r=api-tokens%2Findex" target="_blank">panel</a> in the "Api Tokens" menu",
+"Id of the <a href="https://dashboard.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>", "Id of the <a href="https://dashboard.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>",
+"Create it inside the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=api-tokens%2Findex" target="_blank">panel</a> in the "Api Tokens" menu","Create it inside the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=api-tokens%2Findex" target="_blank">panel</a> in the "Api Tokens" menu",
+"Id of the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>","Id of the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>",
+"Development", "Development",
+"User token", "User token",
+"The status of the order is pending, waiting to process the payment by  Pago Fácil", "The status of the order is pending, waiting to process the payment by  Pago Fácil",
+"You will be redirected to the pagofacil after placing an order", "You will be redirected to the pagofacil after placing an order",
+"An error has occurred while generating the payment transaction", "An error has occurred while generating the payment transaction"

@@ -1,0 +1,10 @@
+"Development", "Desarrollo",
+"Production", "Producción",
+"Create it inside the <a href="https://dashboard.pagofacil.cl/index.php?r=api-tokens%2Findex" target="_blank">panel</a> in the "Api Tokens" menu","Crearlo dentro del <a href="https://dashboard.pagofacil.cl/index.php?r=api-tokens%2Findex" target="_blank">panel</a> en el menú "Api Tokens"",
+"Id of the <a href="https://dashboard.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>","Id del <a href="https://dashboard.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">servicio</a>",
+"Create it inside the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=api-tokens%2Findex" target="_blank">panel</a> in the "Api Tokens" menu","Crearlo dentro del <a href="https://dashboard-dev.pagofacil.cl/index.php?r=api-tokens%2Findex" target="_blank">panel</a> en el menú "Api Tokens"",
+"Id of the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>","Id del <a href="https://dashboard-dev.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">servicio</a>",
+"User token", "Token de usuario",
+"The status of the order is pending, waiting to process the payment by Pago Fácil", "El estado de la orden es pendiente, esperando procesar el pago por Pago Fácil",
+"You will be redirected to the pagofacil after placing an order", "Será redirigido a pagofacil después de realizar el pedido",
+"An error has occurred while generating the payment transaction", "Se ha producido un error al generar la transacción de pago"

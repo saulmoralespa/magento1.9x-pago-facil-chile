@@ -1,0 +1,12 @@
+<?php if($url): ?>
+    <div>
+        <p><?php echo $this->__('Redirecting to pagofacil...');?></p>
+    </div>
+<script type="text/javascript">
+    window.location.replace('<?php echo $url; ?>');
+</script>
+<?php else: ?>
+<div>
+    <p><?php echo $this->__('An error has occurred while generating the payment transaction');?></p>
+</div>
+<?php endif;?>

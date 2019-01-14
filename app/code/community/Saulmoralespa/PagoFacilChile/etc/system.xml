@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <payment>
+            <groups>
+                <pagofacilchile translate="label" module="pagofacilchile">
+                    <label>PST Pago fácil SPA version 1.0.0</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+                        <title translate="label">
+                            <label>Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </title>
+                        <environment translate="label comment">
+                            <label>Environment</label>
+                            <comment>Set to No if you are going to production Mode</comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>pagofacilchile/source_transactionMode</source_model>
+                            <sort_order>25</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </environment>
+                        <label_production translate="label comment">
+                            <label>Production</label>
+                            <frontend_type>label</frontend_type>
+                            <sort_order>26</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </label_production>
+                        <user_token_production translate="label comment">
+                            <label>User token</label>
+                            <comment>
+                                <![CDATA[Create it inside the <a href="https://dashboard.pagofacil.cl/index.php?r=api-tokens%2Findex" target="_blank">panel</a> in the "Api Tokens" menu]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>27</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </user_token_production>
+                        <account_id_production translate="label comment">
+                            <label>Id Service</label>
+                            <comment>
+                                <![CDATA[Id of the <a href="https://dashboard.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>28</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </account_id_production>
+                        <label_development translate="label comment">
+                            <label>Development</label>
+                            <frontend_type>label</frontend_type>
+                            <sort_order>29</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </label_development>
+                        <user_token_development translate="label comment">
+                            <label>User token</label>
+                            <comment>
+                                <![CDATA[Create it inside the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=api-tokens%2Findex" target="_blank">panel</a> in the "Api Tokens" menu]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </user_token_development>
+                        <account_id_development translate="label comment">
+                            <label>Id Service</label>
+                            <comment>
+                                <![CDATA[Id of the <a href="https://dashboard-dev.pagofacil.cl/index.php?r=servicios-tbk" target="_blank">service</a>]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>31</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </account_id_development>
+                        <sort_order translate="label">
+                            <label>Sort order</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>90</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sort_order>
+                    </fields>
+                </pagofacilchile>
+            </groups>
+        </payment>
+    </sections>
+</config>
